@@ -124,3 +124,116 @@ body {
     color: #A2AADB;
     border: 2px solid #A2AADB;
 }
+
+button.loading {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+
+.wrapper1 {
+    width: 605px;
+    background: white;
+    border-radius: 16px;
+    padding: 30px 30px 25px;
+}
+
+.wrapper1 header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Poppins' sans-serif;
+}
+
+.wrapper1 .content1 {
+    margin: 35px 0;
+}
+
+.content1 .quote-area1 {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-area1 i {
+    display: flex;
+    margin: 3px 10px 0 0;
+}
+
+.quote-area1 i:last-child {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px;
+}
+
+.quote-area1 .quote1 {
+    font-size: 22px;
+    word-break: all;
+    text-align: center;
+}
+
+.author1 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.author1 span:first-child {
+    font-family: monospace;
+    margin: -7px 5px 0 0;
+}
+
+.buttons1 {
+    border-top: 1px solid #ccc;
+}
+
+.buttons1 .features1 {
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features1 ul {
+    display: flex;
+}
+
+.features1 ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    color: #A2AADB;
+    border-radius: 50%;
+    height: 47px;
+    width: 47px;
+    border: 2px solid #A2AADB;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.features1 ul li:hover {
+    color:white;
+    background-color: #A2AADB;
+}
+
+.features1 button {
+    outline: none;
+    padding: 13px 22px;
+    color: white;
+    border-radius: 30px;
+    background: #A2AADB;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.features1 button:hover {
+    color: #A2AADB;
+    background-color: white;
+    border: 2px solid #A2AADB;
+}
+
